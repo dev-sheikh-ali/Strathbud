@@ -183,6 +183,14 @@ def deleteMessage(request, pk):
     return render(request, 'base/delete.html', {'obj': message})
 
 
+def moderateMessage(request, pk):
+    banned_words = ["wtf","weed","shit","asshole","fuck"] 
+    if word in banned_words:
+        message.delete()
+        return redirect('home')
+    return render(request, 'base/delete.html', {'obj': message})
+
+
 @login_required(login_url='login')
 def updateUser(request):
     user = request.user
