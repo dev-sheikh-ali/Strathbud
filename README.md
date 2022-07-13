@@ -60,16 +60,16 @@ python manage.py runserver
 &nbsp; 
 <br>
 <p align="center">
-  Admin
+  HOME
 </p>
-<img src="https://user-images.githubusercontent.com/72341453/134747262-0a92233d-8010-40f8-84c5-8d94895aac44.PNG">
+<img src="https://github.com/dev-sheikh-ali/Strathbud/blob/main/static/images/home.png">
 </td> 
 <td width="50%">
 <br>
 <p align="center">
-  Room Conversation Previews
+  ADMIN
 </p>
-<img src="https://user-images.githubusercontent.com/72341453/134747155-3ca5b55f-b064-4741-aeae-abe90bddf41e.PNG">  
+<img src="https://github.com/dev-sheikh-ali/Strathbud/blob/main/static/images/admin.png">  
 </td>
 </table>
 
